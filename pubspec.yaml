@@ -1,0 +1,61 @@
+name: app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  flutter_map: ^7.0.0
+  latlong2: ^0.9.1
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.0
+  firebase_auth: ^5.7.0
+  google_sign_in: ^6.1.0
+  geolocator: ^11.0.0
+  permission_handler: ^11.3.0
+  google_fonts: ^6.1.0
+  image_picker: ^1.0.7
+  url_launcher: ^6.2.0
+  firebase_storage: ^12.4.0
+  firebase_app_check: ^0.3.2
+  easy_localization: ^3.0.8
+  shared_preferences: ^2.2.2
+  http: ^1.6.0
+  path: ^1.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.4.4
+  build_runner: ^2.4.13
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon_petsos.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/icon_petsos.png"
+    background_color: "#hex_code"
+    theme_color: "#hex_code"
+  windows:
+    generate: true
+    image_path: "assets/icon_petsos.png"
+    icon_size: 48 # min:48, max:256, default: 48
+
+flutter:
+  uses-material-design: true
+  assets:
+
+    - assets/translations/
