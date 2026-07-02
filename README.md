@@ -1,6 +1,6 @@
-# PetSOS — Lost & Found Pet Rescue App (Flutter + Firebase)
+# PetSOS: Lost & Found Pet Rescue App (Flutter + Firebase)
 
-Cross-platform Flutter application for reporting and finding lost or abandoned pets — a digital replacement for lost-pet posters: geolocated photo reports on a live map, private in-app messaging between finders and owners (no phone numbers exchanged), and an admin dashboard. UI designed in Figma.
+Cross-platform Flutter application for reporting and finding lost or abandoned pets, a digital replacement for lost-pet posters: geolocated photo reports on a live map, private in-app messaging between finders and owners (no phone numbers exchanged), and an admin dashboard. UI designed in Figma.
 
 ## Features
 
@@ -13,10 +13,10 @@ Cross-platform Flutter application for reporting and finding lost or abandoned p
 
 ## Architecture & stack
 
-- **MVVM** with `Provider` — clean separation of `models/`, `viewmodels/`, `views/`
+- **MVVM** with `Provider`: clean separation of `models/`, `viewmodels/`, `views/`
 - **Firebase**: Authentication (incl. Google Sign-In), Cloud Firestore, Storage
 - Repository + service layer (`models/data/`) for chat, location, routing, and storage
-- **Tests**: unit and widget tests with `mockito` across four suites — models, validators, and view models (`test/`)
+- **Tests**: unit and widget tests with `mockito` across four suites: models, validators, and view models (`test/`)
 
 ## Getting started
 
