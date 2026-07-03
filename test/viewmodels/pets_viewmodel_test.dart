@@ -1,10 +1,10 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 import 'package:mockito/annotations.dart';
-import 'package:app/viewmodels/pets_viewmodel.dart';
-import 'package:app/models/data/repositories/pets_repository.dart';
-import 'package:app/models/data/services/storage_service.dart';
-import 'package:app/models/pet.dart';
+import 'package:petsos/viewmodels/pets_viewmodel.dart';
+import 'package:petsos/models/data/repositories/pets_repository.dart';
+import 'package:petsos/models/data/services/storage_service.dart';
+import 'package:petsos/models/pet.dart';
 import 'dart:async';
 
 // Generate mocks

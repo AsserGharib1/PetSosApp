@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:app/models/pet.dart';
+import 'package:petsos/models/pet.dart';
 
 // ==============================================================================
 // MARKING CRITERIA: Unit Types & Data Items

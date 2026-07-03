@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:app/models/message.dart';
-import 'package:app/viewmodels/auth_viewmodel.dart';
-import 'package:app/viewmodels/chat_viewmodel.dart';
-import 'package:app/views/theme/app_colors.dart';
-import 'package:app/views/theme/app_text_styles.dart';
+import 'package:petsos/models/message.dart';
+import 'package:petsos/viewmodels/auth_viewmodel.dart';
+import 'package:petsos/viewmodels/chat_viewmodel.dart';
+import 'package:petsos/views/theme/app_colors.dart';
+import 'package:petsos/views/theme/app_text_styles.dart';
 import 'package:easy_localization/easy_localization.dart';
 
 class ChatScreen extends StatefulWidget {

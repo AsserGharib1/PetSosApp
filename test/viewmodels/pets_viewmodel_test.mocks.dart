@@ -6,9 +6,9 @@
 import 'dart:async' as _i3;
 import 'dart:io' as _i7;
 
-import 'package:app/models/data/repositories/pets_repository.dart' as _i2;
-import 'package:app/models/pet.dart' as _i4;
-import 'package:app/models/data/services/storage_service.dart' as _i6;
+import 'package:petsos/models/data/repositories/pets_repository.dart' as _i2;
+import 'package:petsos/models/pet.dart' as _i4;
+import 'package:petsos/models/data/services/storage_service.dart' as _i6;
 import 'package:mockito/mockito.dart' as _i1;
 import 'package:mockito/src/dummies.dart' as _i5;
 

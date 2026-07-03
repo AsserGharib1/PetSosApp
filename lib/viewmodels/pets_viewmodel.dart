@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../models/pet.dart';
-import 'package:app/models/data/repositories/pets_repository.dart';
-import 'package:app/models/data/services/storage_service.dart';
+import 'package:petsos/models/data/repositories/pets_repository.dart';
+import 'package:petsos/models/data/services/storage_service.dart';
 import 'dart:async';
 import 'dart:io';
 

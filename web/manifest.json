@@ -1,11 +1,11 @@
 {
-    "name": "app",
-    "short_name": "app",
+    "name": "PetSOS",
+    "short_name": "PetSOS",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#hex_code",
-    "theme_color": "#hex_code",
-    "description": "A new Flutter project.",
+    "background_color": "#FFFFFF",
+    "theme_color": "#14B8A6",
+    "description": "PetSOS: lost and found pet rescue app",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

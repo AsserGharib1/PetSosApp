@@ -1,5 +1,5 @@
-name: app
-description: "A new Flutter project."
+name: petsos
+description: "PetSOS: lost and found pet rescue app with live maps, Firebase, and in-app chat."
 publish_to: 'none'
 version: 1.0.0+1
 

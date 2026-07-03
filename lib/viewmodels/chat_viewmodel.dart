@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:app/models/data/services/chat_service.dart';
+import 'package:petsos/models/data/services/chat_service.dart';
 import '../models/message.dart';
 
 class ChatViewModel extends ChangeNotifier {

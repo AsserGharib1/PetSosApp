@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:app/views/theme/app_colors.dart';
-import 'package:app/views/theme/app_text_styles.dart';
+import 'package:petsos/views/theme/app_colors.dart';
+import 'package:petsos/views/theme/app_text_styles.dart';
 import '../buttons/primary_button.dart';
 import '../buttons/secondary_button.dart';
 

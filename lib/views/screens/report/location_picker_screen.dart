@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_map/flutter_map.dart';
 import 'package:latlong2/latlong.dart';
-import 'package:app/views/theme/app_colors.dart';
-import 'package:app/views/theme/app_text_styles.dart';
+import 'package:petsos/views/theme/app_colors.dart';
+import 'package:petsos/views/theme/app_text_styles.dart';
 
 class LocationPickerScreen extends StatefulWidget {
   final LatLng? initialLocation;

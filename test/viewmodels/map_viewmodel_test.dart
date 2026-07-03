@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:app/viewmodels/map_viewmodel.dart';
-import 'package:app/models/pet.dart';
+import 'package:petsos/viewmodels/map_viewmodel.dart';
+import 'package:petsos/models/pet.dart';
 import 'package:latlong2/latlong.dart';
 
 void main() {

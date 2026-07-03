@@ -2,8 +2,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
-import 'package:app/models/data/repositories/user_repository.dart';
-import 'package:app/models/user.dart' as app_model;
+import 'package:petsos/models/data/repositories/user_repository.dart';
+import 'package:petsos/models/user.dart' as app_model;
 
 class AuthViewModel extends ChangeNotifier {
   final FirebaseAuth _auth = FirebaseAuth.instance;

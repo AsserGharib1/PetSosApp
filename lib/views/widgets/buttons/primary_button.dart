@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:app/views/theme/app_colors.dart';
-import 'package:app/views/theme/app_text_styles.dart';
+import 'package:petsos/views/theme/app_colors.dart';
+import 'package:petsos/views/theme/app_text_styles.dart';
 
 /// Modern gradient button with loading state and icon support
 class PrimaryButton extends StatelessWidget {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:app/models/data/services/location_service.dart';
+import 'package:petsos/models/data/services/location_service.dart';
 
 /// ViewModel for managing location state and permissions
 class LocationViewModel extends ChangeNotifier {
