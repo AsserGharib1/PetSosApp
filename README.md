@@ -1,6 +1,6 @@
 # PetSOS: Lost and Found Pet Rescue App (Flutter + Firebase)
 
-Cross-platform Flutter application that replaces lost-pet posters with a live community map: geolocated photo reports, private in-app messaging between finders and owners, and an admin dashboard. UI designed in Figma first, then built with MVVM.
+Cross-platform Flutter application that replaces lost-pet posters with a live community map: geolocated photo reports, private in-app messaging between finders and owners, and an admin dashboard. Built with MVVM.
 
 ## App walkthrough (screenshots from the running app)
 
@@ -49,12 +49,6 @@ Four suites with `flutter_test` and `mockito` (generated mocks included): model 
 ```bash
 flutter test
 ```
-
-## Design process
-
-Screens were prototyped in Figma before implementation, for example the Rescue Map concept:
-
-<img src="docs/design/figma_rescue_map.png" width="220"/>
 
 ## Getting started
 
